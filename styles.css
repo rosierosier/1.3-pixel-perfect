@@ -1,0 +1,62 @@
+* {
+
+}
+
+img {max-width: 100%}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.overlay h1 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 200px
+}
+
+.subhead p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -60px
+}
+
+
+.logo {
+  background:url(http://i.telegraph.co.uk/multimedia/archive/02134/surf-wave_2134340b.jpg);
+  width: 1300px;
+  height: 523px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -150px 0 50px 0;
+
+}
+
+.overlay {
+  background-color: rgba(80, 150, 255, 0.7);
+  width: 1300px;
+  height: 523px;
+}
+
+
+.icon {
+
+}
+
+.nav {
+
+}
+
+/*.logo img {
+  width: 1300px;
+  height: 520px;
+  background-repeat: no-repeat;
+}*/
