@@ -1,5 +1,7 @@
 * {
-
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {max-width: 100%}
@@ -19,6 +21,7 @@ h2 {
 .overlay h1 {
   color: white;
   text-align: center;
+  letter-spacing: 4px;
   font-size: 80px;
   padding-top: 200px
 }
@@ -41,18 +44,45 @@ h2 {
 }
 
 .overlay {
-  background-color: rgba(80, 150, 255, 0.7);
+  background-color: rgba(0, 114, 189, 0.7);
   width: 1300px;
   height: 523px;
 }
 
 
-.icon {
+.icon > img {
+  weight: 100%;
+  float: left;
+  display: inline-block;
+  margin: 0 5px 0 140px;
+}
 
+.icon-text {
+  position: absolute;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.icon {
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  width: 30%;
+  margin-right: 0;
 }
 
 .nav {
+  display: inline-block;
+  margin-right: 0;
+  clear: left;
+}
 
+.navigation {
+  margin-right: 0;
+  float: right;
 }
 
 /*.logo img {
