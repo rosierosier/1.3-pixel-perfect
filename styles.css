@@ -44,7 +44,7 @@ h2 {
 }
 
 .overlay {
-  background-color: rgba(0, 114, 189, 0.7);
+  background-color: rgba(0, 90, 190, 0.7);
   width: 1300px;
   height: 523px;
 }
@@ -53,14 +53,13 @@ h2 {
 .icon > img {
   weight: 100%;
   float: left;
-  display: inline-block;
-  margin: 0 5px 0 140px;
+  margin: 10px 5px 0 140px;
 }
 
 .icon-text {
   position: absolute;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 
 .icon {
@@ -69,20 +68,29 @@ h2 {
 .nav li {
   list-style: none;
   display: inline-block;
-  padding: 10px;
-  width: 30%;
-  margin-right: 0;
+  margin-left: 12px;
 }
 
 .nav {
   display: inline-block;
-  margin-right: 0;
-  clear: left;
 }
 
 .navigation {
-  margin-right: 0;
+  margin: 21px 0 -21px 670px;
+}
+
+.search-icon {
   float: right;
+  font-size: 16px;
+}
+
+.search-icon img {
+  display: inline-block;
+  float: right;
+  overflow: hidden
+  margin: 0 auto;
+  vertical-align: middle;
+  width: 85%;
 }
 
 /*.logo img {
